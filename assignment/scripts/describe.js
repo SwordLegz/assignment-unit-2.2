@@ -75,9 +75,9 @@ console.log(secret)
 //// Created a variable called 'age' and assigned it a value of '34'
 //// Created a variable called 'zip' and assigned it a value of '55407'
 //// Wrote a compound conditional that covered the following;
-//// if value of 'isStudent' AND 'zip' is true and it's greater than 80000,
+//// if value of 'isStudent' is true and 'zip' is greater than 80000,
 //// then console.log 'You're a student on the West Coast!'
-//// if value of 'isStudent' AND 'age' is less than '30',
+//// if value of 'isStudent' is false or 'age' less than '30',
 //// then console.log 'What are youre hobbies?'
 //// if 'isStudent' is true, then console.log 'Welcome to Prime!'
 //// Console.log 'How about the weather?'
@@ -134,40 +134,44 @@ if (number >= 2) {
 
 
 
-////4. We start with three variables -- colorOne is set to 'blue' and 
-//// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
-//// -- it is, so we set colorOne and colorTwo to 'purple'
+//4. We start with three variables -- colorOne is set to 'blue' and 
+// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+// -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-//FIX - colorOne is set to 'red' but it says 'purple' below.
+////FIX - colorOne is supposed to be set at 'blue' but is set at'red';
+////      colorTwo is supposed to be set at 'red' but is set at 'blue';
+////      swap the two colors around;
+////      additionally, we are missing 'colorTwo = 'purple' in the conditional,
+////      so add that in!!
 
 if (mix === true) {
   colorOne = 'purple';
 }
 */
 
-////5. We start with two variables -- temp is set to 40 and time is set to 4.
-//// We check if temp is higher than 39 and if time is greater or equal to  4 
-//// -- they are so we console.log 'throw away the food!'
+//5. We start with two variables -- temp is set to 40 and time is set to 4.
+// We check if temp is higher than 39 and if time is greater or equal to  4 
+// -- they are so we console.log 'throw away the food!'
 
 /*
 let temp = 40;
 const time = 4;
 
-// FIX - console.log should say ()
+//// FIX - in the conditional, it should not be || but rather &&
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
 
-////6. We start with two variables -- age is set to 21 and minAge is set to 21.
-//// We check if age is greater than or equal to minAge 
-//// -- it is, so we console.log 'enter'.
+//6. We start with two variables -- age is set to 21 and minAge is set to 21.
+// We check if age is greater than or equal to minAge 
+// -- it is, so we console.log 'enter'.
 
 /*
 let age = 21;
@@ -178,5 +182,9 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+//// FIX - 'age' and 'minAge' are in wrong order, so needs to be swapped to age >= minAge
+////       There is also no mention of adding in 'no entry' so we'd need to take that out.
+////       
+
 */
 
