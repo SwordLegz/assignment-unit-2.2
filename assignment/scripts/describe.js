@@ -26,9 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-//// Created a variable called `name` and assigned it the value of your 'Dane'
-//// Wrote a conditional: if value of 'name' is 'Mary', then console.log 'Hi, Mary!'
-//// If not true, then we console.log 'How do you do?'
+//// Created a variable called `name` and assigned it the value of 'Dane'
+//// Since name is not Mary, then we console.log 'How do you do?'
 
 //CODE
 /*
@@ -46,10 +45,9 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 //// Created variable called 'secret' 
 //// then create a variable called 'code' and assigned it the  value of '123'
-//// multiply 'code' by 2 to equal the new value of 'code'
-//// Created a conditional: if code is exactly '123', then set secret to 'super';
-//// if code is greater than 250, set secret to 'duper'.
-//// Then we console.log 'secret'
+//// since code equals 123, set secret to 'super', and reassign 'code' to itself multiplied by 2 (246)
+//// Skips second IF statement to reassign secret since code is less than 250
+//// Then we console.log 'super'
 
 //CODE
 /*
@@ -74,13 +72,7 @@ console.log(secret)
 //// Created a variable called 'isStudent' and set it to a boolean value of 'true'
 //// Created a variable called 'age' and assigned it a value of '34'
 //// Created a variable called 'zip' and assigned it a value of '55407'
-//// Wrote a compound conditional that covered the following;
-//// if value of 'isStudent' is true and 'zip' is greater than 80000,
-//// then console.log 'You're a student on the West Coast!'
-//// if value of 'isStudent' is false or 'age' less than '30',
-//// then console.log 'What are youre hobbies?'
-//// if 'isStudent' is true, then console.log 'Welcome to Prime!'
-//// Console.log 'How about the weather?'
+//// Since Student === true is true and the other if statements are actually false, then console.log 'Welcome to Prime!'
 
 
 
