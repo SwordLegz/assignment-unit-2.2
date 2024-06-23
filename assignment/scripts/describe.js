@@ -182,7 +182,8 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-//// FIX - 'age' and 'minAge' are in wrong order, so needs to be swapped to age >= minAge
+
+//// FIX - the if expression operator is not correct, so it needs to be inverted from <= to >=.
 ////       There is also no mention of adding in 'no entry' so we'd need to take that out.
 ////       
 
